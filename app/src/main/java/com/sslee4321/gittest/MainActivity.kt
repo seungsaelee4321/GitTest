@@ -10,6 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        init()
+    }
+
+    fun init() {
         btn_test.setOnClickListener {
             Toast.makeText(this@MainActivity, "test",
                 Toast.LENGTH_SHORT).show()
