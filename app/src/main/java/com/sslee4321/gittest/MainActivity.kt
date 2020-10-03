@@ -10,13 +10,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        init()
+        test()
     }
 
-    fun init() {
+    fun test() {
         btn_test.setOnClickListener {
-            Toast.makeText(this@MainActivity, "test1234",
-                Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, "test fun call", Toast.LENGTH_SHORT).show()
         }
     }
 }
