@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     fun init() {
         btn_test.setOnClickListener {
-            Toast.makeText(this@MainActivity, "test",
+            Toast.makeText(this@MainActivity, "test1234",
                 Toast.LENGTH_SHORT).show()
         }
     }
